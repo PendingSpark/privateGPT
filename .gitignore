@@ -4,6 +4,12 @@
 # Models
 models/
 
+# virtual environment
+venv/
+
+# Pycharm
+.idea/
+
 # Local Chroma db
 .chroma/
 db/
