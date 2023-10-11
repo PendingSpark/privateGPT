@@ -26,7 +26,8 @@ poetry shell
 
 Then, download the LLM model and place it in a directory of your choice:
 - LLM: default to [ggml-gpt4all-j-v1.3-groovy.bin](https://gpt4all.io/models/ggml-gpt4all-j-v1.3-groovy.bin). If you prefer a different GPT4All-J compatible model, just download it and reference it in your `.env` file.
-
+- There are two model types: `GPT4ALL` and `LlamaCpp`. For LLamaCpp, there are recent change from the project to use GGUF format instead of the GGML format provided in the gpt4all.io website.
+- So to download the llamaCpp model, you should checkout huggingface website, for example: https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF/tree/main 
 Copy the `example.env` template into `.env`
 ```shell
 cp example.env .env
